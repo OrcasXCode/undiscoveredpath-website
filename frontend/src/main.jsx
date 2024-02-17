@@ -4,7 +4,8 @@ import App from './App.jsx'
 import './index.css'
 import {  RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { Layout } from './Layout.jsx'
-import { Home } from './components/Home/Home.jsx'
+import { Home } from '../src/components/Home/Home.jsx'
+import { About } from './components/About/About.jsx'
 
 const router=createBrowserRouter([
   {
@@ -15,20 +16,22 @@ const router=createBrowserRouter([
         path:"",
         element:<Home></Home>
       },
+      {
+        path:"aboutus",
+        element:<About></About>
+      },
     ]
   }
 
 ])
 
-// const store = configureStore({
-//   reducer:rootReducer
-// })
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <Provider store={store}> */}
+   
       <RouterProvider router={router}></RouterProvider>
-    {/* </Provider> */}
+
   </React.StrictMode>,
 )
  
