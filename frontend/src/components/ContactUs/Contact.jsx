@@ -1,10 +1,9 @@
 import React from 'react'
 import Lottie from 'lottie-react'
 import animationData from '../../assets/Animation.json'
+import { Link } from 'react-router-dom'
 
 export function Contact() {
- 
-
   return (
     <div className="w-full">
     
@@ -20,25 +19,23 @@ export function Contact() {
             Please complete the Google Form to register for our upcoming event. Ensure all details are entered correctly to secure your spot.
             </p>
 
-            <form action="" className="mt-8 flex items-start space-x-2">
+           
               <div>
+                <Link to="/error">
                 <button
                   type="button"
                   className="rounded-md bg-black px-3 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   Register
                 </button>
+                </Link>
               </div>
-            </form>
           </div>
           <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
             <Lottie animationData={animationData}></Lottie>
           </div>
         </div>
-      </div>
-     
-
-      
+      </div>  
     </div>
   )
 }

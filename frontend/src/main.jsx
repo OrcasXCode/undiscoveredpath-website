@@ -7,6 +7,7 @@ import { Layout } from './Layout.jsx'
 import { Home } from '../src/components/Home/Home.jsx'
 import { About } from './components/About/About.jsx'
 import { Contact } from './components/ContactUs/Contact.jsx'
+import { Error } from './components/Error/Error.jsx'
 
 const router=createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router=createBrowserRouter([
       {
         path:"contactus",
         element:<Contact></Contact>
+      },
+      {
+        path:"error",
+        element:<Error></Error>
       },
     ]
   }

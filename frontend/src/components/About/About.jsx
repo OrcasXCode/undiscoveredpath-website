@@ -47,7 +47,7 @@ export function About() {
             </p>
             <button
               type="button"
-              className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              className="rounded-md w-[100px] bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
               Join Now
             </button>
@@ -64,9 +64,6 @@ export function About() {
         {/* greetings */}
         <div style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-16 flex items-center">
           <div className="space-y-6 md:w-3/4">
-            <div className="max-w-max rounded-full border bg-gray-50 p-1 px-3">
-              <p className="text-xs font-semibold leading-normal md:text-sm">Join Us &rarr;</p>
-            </div>
             <p className="text-3xl font-bold text-gray-900 md:text-4xl">Meet our team</p>
             <p className="max-w-4xl text-base text-gray-700 md:text-xl">
               Our philosophy is simple — hire a team of diverse, passionate people and foster a

@@ -7,3 +7,85 @@
     font-weight: bold;
     src: url("../src/utils/D-DIN-Bold.otf") format("opentype");
 }
+
+button{
+	padding: 0.8em 1.8em;
+	border-radius: 8px;
+	background-color: transparent;
+	color:purple;
+	font-size: 16px;
+	cursor: pointer;
+	z-index: 1;
+	transition: 0.3s;
+	overflow:hidden ;
+	position: relative;
+}
+button:before{
+	content:'';
+	width: 0;
+	height: 300%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transition: 0.5s ease;
+	transform: translate(-50%,-50%) rotate(45deg);
+	display: block;
+	z-index: -1;
+	background-color: purple;
+}
+button:hover::before{
+	width: 105%;
+}
+button:hover{
+	color:white;
+}
+
+
+
+
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  section {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  article {
+    display: flex;
+    width: 200%;
+    animation: bannermove 20s linear infinite;
+  }
+
+  
+  ul {
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  li  {
+    width: 100%;
+  }
+  
+   /* li:nth-child(2) {
+    background: green;
+  } */
+  
+  li:nth-child(6) {
+    padding-right: 10px;
+  } 
+  
+  @keyframes bannermove {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }

@@ -2,12 +2,18 @@ import React from 'react'
 import  {TypeAnimation}  from 'react-type-animation';
 import demo from '../../assets/demo.jpg'
 import event1 from '../../assets/event1.jpg'
+import img1 from '../../assets/img1.jpg'
+import img2 from '../../assets/img2.jpg'
+import img3 from '../../assets/img3.jpg'
 
 export function Home(props) {
+
+
+
   return (
     
     <>
-      <div className="relative w-full">
+      <div className="relative w-full overflow-x-hidden">
       
       <div className="relative h-screen isolate z-0 bg-white px-6 pt-14 lg:px-8">
         <div className="relative mx-auto max-w-2xl py-24">
@@ -69,7 +75,7 @@ export function Home(props) {
       <div>
         <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center text-5xl font-bold mt-10 mb-10'>Our Past Events</h1>
       </div>
-      <hr className="mt-6 max-w-7xl mx-auto" />
+      <hr className=" m-12 max-w-7xl mx-auto" />
 
       <div className='w-full h-screen relative'>
         <img src={event1} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
@@ -112,7 +118,7 @@ export function Home(props) {
       <div>
         <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center text-5xl font-bold mt-10 mb-10'>Our Upcoming Events</h1>
       </div>
-      <hr className="mt-6 max-w-7xl mx-auto" />
+      <hr className=" m-12 max-w-7xl mx-auto" />
 
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
@@ -150,9 +156,36 @@ export function Home(props) {
         </h1>
     </div>
 
+          <hr className="mt-6 max-w-7xl mx-auto" />
+      <div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center text-5xl font-bold mt-10 mb-10'>Our Community Glimps</h1>
+      </div>
+      <hr className=" m-12 max-w-7xl mx-auto" />
 
+     <article>
+      <div>
+        <ul>
+          <li><img src={img1} style={{ height: "300px" }} /></li>
+          <li><img src={img2} style={{ height: "300px" }} /></li>
+          <li><img src={img3} style={{ height: "300px" }} /></li>
+          <li><img src={img2} style={{ height: "300px" }} /></li>
+          <li><img src={img1} style={{ height: "300px" }} /></li>
+          <li><img src={img3} style={{ height: "300px" }} /></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><img src={img1} style={{ height: "300px" }} /></li>
+          <li><img src={img2} style={{ height: "300px" }} /></li>
+          <li><img src={img3} style={{ height: "300px" }} /></li>
+          <li><img src={img2} style={{ height: "300px" }} /></li>
+          <li><img src={img1} style={{ height: "300px" }} /></li>
+          <li><img src={img3} style={{ height: "300px" }} /></li>
+        </ul>
+      </div>
+    </article>
 
-   
+    <hr className=" m-12 max-w-7xl mx-auto" />
     </div>
     </>
   )
