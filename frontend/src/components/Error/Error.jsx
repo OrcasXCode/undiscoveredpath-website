@@ -13,7 +13,7 @@ export function Error() {
             Sorry No Upcoming Events found
         </h1>
         <p className="mt-4 text-base leading-7 text-gray-600">
-            We know you're excited for the events, but unfortunately, we are still planning them. We'll notify you and get back to you soon.
+            We know you're excited for the events, but unfortunately we are still planning them. We'll notify you and get back to you soon.
         </p>
         <div className="mt-4 flex items-center justify-center gap-x-3">
           <Link to="/">

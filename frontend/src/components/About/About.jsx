@@ -39,7 +39,7 @@ export function About() {
         {/* Hiring Banner */}
         <div className="flex flex-col items-center gap-x-4 gap-y-4 py-16 md:flex-row">
           <div style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="space-y-6">
-            <p className="text-sm font-semibold md:text-base">Join our team &rarr;</p>
+            
             <p className="text-3xl font-bold md:text-4xl">We&apos;re just getting started</p>
             <p className="text-base text-gray-600 md:text-lg">
               Our philosophy is simple — hire a team of diverse, passionate people and foster a
@@ -52,11 +52,11 @@ export function About() {
               Join Now
             </button>
           </div>
-          <div className="mx-auto md:mt-o mt-10 w-full">
+          <div className="flex items-center justify-center mx-auto md:mt-o mt-10 w-full">
             <img
               src={logo}
               alt="Getting Started"
-              className="rounded-lg"
+              className="rounded-lg h-[400px] w-[400px]"
             />
           </div>
         </div>

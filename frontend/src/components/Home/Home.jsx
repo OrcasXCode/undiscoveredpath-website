@@ -1,10 +1,15 @@
 import React from 'react'
 import  {TypeAnimation}  from 'react-type-animation';
 import demo from '../../assets/demo.jpg'
-import event1 from '../../assets/event1.jpg'
+// import event1 from '../../assets/event1.jpg'
 import img1 from '../../assets/img1.jpg'
 import img2 from '../../assets/img2.jpg'
 import img3 from '../../assets/img3.jpg'
+import img4 from '../../assets/img4.jpg'
+import img5 from '../../assets/img5.jpg'
+import video1 from '../../assets/video1.mp4'
+
+
 
 export function Home(props) {
 
@@ -52,13 +57,13 @@ export function Home(props) {
             <TypeAnimation 
           sequence={[
             ' Undiscovered',
-            2500, // wait 1s before replacing "Mice" with "Hamsters"
+            1500, // wait 1s before replacing "Mice" with "Hamsters"
             ' Path',
-            2500
+            1500
           ]}
           speed={50}
           style={{fontFamily:'GraublauWeb',fontWeight:'bold'}}
-          className="mt-8 text-[20px] text-purple-800 font-bold tracking-tight md:text-4xl lg:text-3xl"   
+          className="mt-8 text-[20px] text-[#CB00CC] font-bold tracking-tight md:text-4xl lg:text-3xl"   
           repeat={Infinity}></TypeAnimation> 
           </h1>
             <p style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-6 text-lg leading-8 text-gray-600">
@@ -78,10 +83,10 @@ export function Home(props) {
       <hr className=" m-12 max-w-7xl mx-auto" />
 
       <div className='w-full h-screen relative'>
-        <img src={event1} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <video autoPlay muted loop src={video1} className='absolute inset-0 w-full h-full object-cover'></video>
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
-          Farming in rainy season
+          Mr. Punjab BodyBuilding Championship
         </h1>
     </div>
       <div className='w-full h-screen relative'>
@@ -168,9 +173,8 @@ export function Home(props) {
           <li><img src={img1} style={{ height: "300px" }} /></li>
           <li><img src={img2} style={{ height: "300px" }} /></li>
           <li><img src={img3} style={{ height: "300px" }} /></li>
-          <li><img src={img2} style={{ height: "300px" }} /></li>
-          <li><img src={img1} style={{ height: "300px" }} /></li>
-          <li><img src={img3} style={{ height: "300px" }} /></li>
+          <li><img src={img5} style={{ height: "300px" }} /></li>
+          <li><img src={img4} style={{ height: "300px" }} /></li>   
         </ul>
       </div>
       <div>
@@ -178,9 +182,8 @@ export function Home(props) {
           <li><img src={img1} style={{ height: "300px" }} /></li>
           <li><img src={img2} style={{ height: "300px" }} /></li>
           <li><img src={img3} style={{ height: "300px" }} /></li>
-          <li><img src={img2} style={{ height: "300px" }} /></li>
-          <li><img src={img1} style={{ height: "300px" }} /></li>
-          <li><img src={img3} style={{ height: "300px" }} /></li>
+          <li><img src={img5} style={{ height: "300px" }} /></li>
+          <li><img src={img4} style={{ height: "300px" }} /></li>
         </ul>
       </div>
     </article>

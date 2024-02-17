@@ -12,7 +12,7 @@ button{
 	padding: 0.8em 1.8em;
 	border-radius: 8px;
 	background-color: transparent;
-	color:purple;
+	color:#CB00CC;
 	font-size: 16px;
 	cursor: pointer;
 	z-index: 1;
@@ -31,7 +31,7 @@ button:before{
 	transform: translate(-50%,-50%) rotate(45deg);
 	display: block;
 	z-index: -1;
-	background-color: purple;
+	background-color: #CB00CC;
 }
 button:hover::before{
 	width: 105%;
@@ -77,7 +77,7 @@ button:hover{
     background: green;
   } */
   
-  li:nth-child(6) {
+  li:nth-child(5) {
     padding-right: 10px;
   } 
   
