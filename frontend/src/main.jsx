@@ -8,6 +8,8 @@ import { Home } from '../src/components/Home/Home.jsx'
 import { About } from './components/About/About.jsx'
 import { Contact } from './components/ContactUs/Contact.jsx'
 import { Error } from './components/Error/Error.jsx'
+import { Recruitment } from './components/Recruitment/Recruitment.jsx'
+import { Error1 } from './components/Error/Error1.jsx'
 
 const router=createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router=createBrowserRouter([
       {
         path:"error",
         element:<Error></Error>
+      },
+      {
+        path:"error-recruitment",
+        element:<Error1></Error1>
+      },
+      {
+        path:"recruitment",
+        element:<Recruitment></Recruitment>
       },
     ]
   }

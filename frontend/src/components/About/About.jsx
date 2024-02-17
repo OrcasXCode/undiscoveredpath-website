@@ -1,30 +1,37 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
+import shalu from '../../assets/shalu.jpg'
+import naveen from '../../assets/naveen.jpg'
+import akashdeep from '../../assets/akashdeep.jpg'
+import sunil from '../../assets/sunil.png'
+import ashish from '../../assets/ashish.jpg'
+import { Link } from 'react-router-dom'
 
 const users = [
   {
-    name: 'Gabrielle Fernandez',
-    image:
-      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=600&w=600&ixid=eyJhcHBfaWQiOjE3Nzg0fQ',
-    position: 'Marketing Lead',
+    name: 'SHALU YADAV',
+    image:shalu,
+    position: 'CEO -  Chief Executive Officer',
   },
   {
-    name: 'Jordi Santiago',
-    image:
-      'https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    position: 'Front-end developer',
+    name: 'NAVEEN',
+    image:naveen,
+    position: 'CO-CEO - Co-Chief Executive Officer.',
   },
   {
-    name: 'Kerim Fahri',
-    image:
-      'https://images.unsplash.com/photo-1456327102063-fb5054efe647?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=600&w=600',
-    position: 'Back-end developer',
+    name: 'AKASHDEEP',
+    image:akashdeep,
+    position: 'CFO - Chief Financial Officer',
   },
   {
-    name: 'Kerim Fahri',
-    image:
-      'https://images.unsplash.com/photo-1456327102063-fb5054efe647?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=600&w=600',
-    position: 'Back-end developer',
+    name: 'SUNIL KUMAR MEHTA',
+    image:sunil,
+    position: 'MD - Managing Director',
+  },
+  {
+    name: 'B SAI ASHISH',
+    image:ashish,
+    position: 'HR - Human Resources',
   },
 ]
 
@@ -45,12 +52,14 @@ export function About() {
               Our philosophy is simple — hire a team of diverse, passionate people and foster a
               culture that empowers you to do your best work.
             </p>
-            <button
+            <Link to="/error-recruitment">
+              <button
               type="button"
-              className="rounded-md w-[100px] bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              className=" mt-4 rounded-md w-[100px] bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
               Join Now
             </button>
+            </Link>
           </div>
           <div className="flex items-center justify-center mx-auto md:mt-o mt-10 w-full">
             <img
@@ -66,8 +75,7 @@ export function About() {
           <div className="space-y-6 md:w-3/4">
             <p className="text-3xl font-bold text-gray-900 md:text-4xl">Meet our team</p>
             <p className="max-w-4xl text-base text-gray-700 md:text-xl">
-              Our philosophy is simple — hire a team of diverse, passionate people and foster a
-              culture that empowers you to do your best work.
+              Our community, Undiscovered Path, is managed by a team of eminent students alongside all other students of Lovely Proffesional University.
             </p>
             <div></div>
           </div>
