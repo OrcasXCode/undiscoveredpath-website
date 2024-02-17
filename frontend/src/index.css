@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: GraublauWeb;
+    font-weight: bold;
+    src: url("../src/utils/D-DIN-Bold.otf") format("opentype");
+}

@@ -38,7 +38,7 @@ export function About() {
         
         {/* Hiring Banner */}
         <div className="flex flex-col items-center gap-x-4 gap-y-4 py-16 md:flex-row">
-          <div className="space-y-6">
+          <div style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="space-y-6">
             <p className="text-sm font-semibold md:text-base">Join our team &rarr;</p>
             <p className="text-3xl font-bold md:text-4xl">We&apos;re just getting started</p>
             <p className="text-base text-gray-600 md:text-lg">
@@ -62,7 +62,7 @@ export function About() {
         </div>
 
         {/* greetings */}
-        <div className="mt-16 flex items-center">
+        <div style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-16 flex items-center">
           <div className="space-y-6 md:w-3/4">
             <div className="max-w-max rounded-full border bg-gray-50 p-1 px-3">
               <p className="text-xs font-semibold leading-normal md:text-sm">Join Us &rarr;</p>
@@ -77,7 +77,7 @@ export function About() {
         </div>
         
         {/* TEAM */}
-        <div className="grid grid-cols-1 gap-4 gap-y-6 border-b border-gray-300 py-12 pb-20 md:grid-cols-2 lg:grid-cols-4">
+        <div style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="grid grid-cols-1 gap-4 gap-y-6 border-b border-gray-300 py-12 pb-20 md:grid-cols-2 lg:grid-cols-4">
           {users.map((user) => (
             <div className="rounded-md border" key={user.name}>
               <img

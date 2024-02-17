@@ -6,7 +6,7 @@ export function Header() {
   return (
     <header className="shadow sticky z-50 top-0">
       <nav className="bg-white border-gray-200 bg-opacity-100 px-4 lg:px-6 py-2.5">
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+        <div style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img src={Logo} className="mr-3 h-12" alt="Logo" />
           </Link>
@@ -37,7 +37,7 @@ export function Header() {
               </li>
               <li>
                 <NavLink
-                  to="/contact-us"
+                  to="/contactus"
                   className="block py-2 pr-4 pl-3 duration-200 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-purple-600 lg:p-0"
                   activeClassName="text-purple-600"
                 >

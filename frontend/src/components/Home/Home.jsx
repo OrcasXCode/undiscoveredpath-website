@@ -1,17 +1,15 @@
 import React from 'react'
 import  {TypeAnimation}  from 'react-type-animation';
-
+import demo from '../../assets/demo.jpg'
+import event1 from '../../assets/event1.jpg'
 
 export function Home(props) {
-
-  
-
   return (
     
     <>
       <div className="relative w-full">
       
-      <div className="relative isolate z-0 bg-white px-6 pt-14 lg:px-8">
+      <div className="relative h-screen isolate z-0 bg-white px-6 pt-14 lg:px-8">
         <div className="relative mx-auto max-w-2xl py-24">
           <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">
             <svg
@@ -40,11 +38,11 @@ export function Home(props) {
             </svg>
           </div>
           <div className="text-center">
-           <h1 className="mt-8 text-3xl font-bold tracking-tight text-black md:text-4xl lg:text-6xl">
+           <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-8 text-3xl font-bold tracking-tight text-black md:text-4xl lg:text-6xl">
             Hey There Verto! 
           </h1>
           <h1 className="mt-8 text-[20px] font-bold tracking-tight text-black md:text-4xl lg:text-3xl">
-            <span className="mt-8 text-[20px] font-bold tracking-tight text-black md:text-4xl lg:text-3xl">Welcome to </span>
+            <span style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-8 text-[20px] font-bold tracking-tight text-black md:text-4xl lg:text-3xl">Welcome to </span>
             <TypeAnimation 
           sequence={[
             ' Undiscovered',
@@ -53,11 +51,11 @@ export function Home(props) {
             2500
           ]}
           speed={50}
-          className="mt-8 text-[20px] font-bold tracking-tight text-black md:text-4xl lg:text-3xl"
-          style={{ fontFamily: 'Playfair Display',color: '#800080', display: 'inline-block' }}      
+          style={{fontFamily:'GraublauWeb',fontWeight:'bold'}}
+          className="mt-8 text-[20px] text-purple-800 font-bold tracking-tight md:text-4xl lg:text-3xl"   
           repeat={Infinity}></TypeAnimation> 
           </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-6 text-lg leading-8 text-gray-600">
               We the entire community of Undiscovered Path, 
               We extend a warm and enthusiastic welcome to you all! Whether you're a returning member
                or a newcomer, we're thrilled to have you join us on this exciting journey filled with creativity, diversity, and fun.
@@ -66,6 +64,93 @@ export function Home(props) {
           </div>
         </div>
       </div>
+
+          <hr className="mt-6 max-w-7xl mx-auto" />
+      <div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center text-5xl font-bold mt-10 mb-10'>Our Past Events</h1>
+      </div>
+      <hr className="mt-6 max-w-7xl mx-auto" />
+
+      <div className='w-full h-screen relative'>
+        <img src={event1} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <div className='absolute inset-0 bg-black opacity-50'></div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+          Farming in rainy season
+        </h1>
+    </div>
+      <div className='w-full h-screen relative'>
+        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <div className='absolute inset-0 bg-black opacity-50'></div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+          Farming in rainy season
+        </h1>
+    </div>
+      <div className='w-full h-screen relative'>
+        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <div className='absolute inset-0 bg-black opacity-50'></div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+          Farming in rainy season
+        </h1>
+    </div>
+      <div className='w-full h-screen relative'>
+        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <div className='absolute inset-0 bg-black opacity-50'></div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+          Farming in rainy season
+        </h1>
+    </div>
+      <div className='w-full h-screen relative'>
+        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <div className='absolute inset-0 bg-black opacity-50'></div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+          Farming in rainy season
+        </h1>
+    </div>
+
+      
+      <hr className="mt-6 max-w-7xl mx-auto" />
+      <div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center text-5xl font-bold mt-10 mb-10'>Our Upcoming Events</h1>
+      </div>
+      <hr className="mt-6 max-w-7xl mx-auto" />
+
+      <div className='w-full h-screen relative'>
+        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <div className='absolute inset-0 bg-black opacity-50'></div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+          Farming in rainy season
+        </h1>
+    </div>
+      <div className='w-full h-screen relative'>
+        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <div className='absolute inset-0 bg-black opacity-50'></div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+          Farming in rainy season
+        </h1>
+    </div>
+      <div className='w-full h-screen relative'>
+        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <div className='absolute inset-0 bg-black opacity-50'></div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+          Farming in rainy season
+        </h1>
+    </div>
+      <div className='w-full h-screen relative'>
+        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <div className='absolute inset-0 bg-black opacity-50'></div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+          Farming in rainy season
+        </h1>
+    </div>
+      <div className='w-full h-screen relative'>
+        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <div className='absolute inset-0 bg-black opacity-50'></div>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+          Farming in rainy season
+        </h1>
+    </div>
+
+
 
    
     </div>
