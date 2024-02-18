@@ -26,8 +26,8 @@ export function Error1() {
           </button>
           </Link>
         </div>
-        <div className='flex justify-center mt-10 mx-auto  w-[600px] h-[500x]'>
-            <Lottie className='h-[200px] w-[200px]' animationData={sorryhire}></Lottie>
+        <div className='flex justify-center items-center mt-10 mx-auto'>
+            <Lottie className='mx-auto h-[200px] w-[200px]' animationData={sorryhire}></Lottie>
         </div>
       </div>
     </div>

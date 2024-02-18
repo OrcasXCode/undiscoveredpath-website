@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import  {TypeAnimation}  from 'react-type-animation';
 import demo from '../../assets/demo.jpg'
 // import event1 from '../../assets/event1.jpg'
@@ -8,12 +8,14 @@ import img3 from '../../assets/img3.jpg'
 import img4 from '../../assets/img4.jpg'
 import img5 from '../../assets/img5.jpg'
 import video1 from '../../assets/video1.mp4'
-
-
-
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 export function Home(props) {
 
-
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[])
+  AOS.init();
 
   return (
     
@@ -49,7 +51,7 @@ export function Home(props) {
             </svg>
           </div>
           <div className="text-center">
-           <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-8 text-3xl font-bold tracking-tight text-black md:text-4xl lg:text-6xl">
+           <h1 data-aos="zoom-in" transition={{ duration: 1.5 }} style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-8 text-3xl font-bold tracking-tight text-black md:text-4xl lg:text-6xl">
             Hey There Verto! 
           </h1>
           <h1 className="mt-8 text-[20px] font-bold tracking-tight text-black md:text-4xl lg:text-3xl">
@@ -77,43 +79,43 @@ export function Home(props) {
       </div>
 
           <hr className="mt-6 max-w-7xl mx-auto" />
-      <div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center text-5xl font-bold mt-10 mb-10'>Our Past Events</h1>
+      <div >
+        <h1  animate={{y:0}} transition={{ duration: 1.5 }}  style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center text-5xl font-bold mt-10 mb-10'>Our Past Events</h1>
       </div>
       <hr className=" m-12 max-w-7xl mx-auto" />
 
       <div className='w-full h-screen relative'>
         <video autoPlay muted loop src={video1} className='absolute inset-0 w-full h-full object-cover'></video>
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
           Mr. Punjab BodyBuilding Championship
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
           Farming in rainy season
         </h1>
     </div>
@@ -128,35 +130,35 @@ export function Home(props) {
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
           Farming in rainy season
         </h1>
     </div>

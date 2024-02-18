@@ -26,7 +26,7 @@ export function Error() {
           </button>
           </Link>
         </div>
-        <div className=' mt-[80px] mx-auto  w-[600px] h-[500x]'>
+        <div className=' mt-[80px] mx-auto flex justify-center items-center '>
             <Lottie animationData={sorry}></Lottie>
         </div>
       </div>

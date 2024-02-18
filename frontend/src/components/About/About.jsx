@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import logo from '../../assets/logo.png'
 import shalu from '../../assets/shalu.jpg'
 import naveen from '../../assets/naveen.jpg'
@@ -6,6 +6,8 @@ import akashdeep from '../../assets/akashdeep.jpg'
 import sunil from '../../assets/sunil.png'
 import ashish from '../../assets/ashish.jpg'
 import { Link } from 'react-router-dom'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 const users = [
   {
@@ -36,6 +38,11 @@ const users = [
 ]
 
 export function About() {
+
+  useEffect(()=>{
+    AOS.init({duration:1000});
+  },[])
+  AOS.init();
 
   return (
     <div>
