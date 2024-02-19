@@ -6,8 +6,8 @@ import sorry from '../../assets/sorry.json'
 
 export function Error() {
   return (
-    <div className="py-10">
-      <div style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="text-center ">
+    <div className=" h-screen py-10">
+      <div style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className=" text-center ">
         <p className="text-base font-semibold text-black"></p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-black sm:text-5xl">
             Sorry No Upcoming Events found
@@ -26,7 +26,7 @@ export function Error() {
           </button>
           </Link>
         </div>
-        <div className=' mt-[80px] mx-auto flex justify-center items-center '>
+        <div className=' mt-[80px] w-[700px] mx-auto flex justify-center items-center '>
             <Lottie animationData={sorry}></Lottie>
         </div>
       </div>
