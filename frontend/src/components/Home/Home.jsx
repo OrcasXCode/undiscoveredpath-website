@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import  {TypeAnimation}  from 'react-type-animation';
 import demo from '../../assets/demo.jpg'
-// import event1 from '../../assets/event1.jpg'
 import img1 from '../../assets/img1.jpg'
 import img2 from '../../assets/img2.jpg'
 import img3 from '../../assets/img3.jpg'
@@ -10,6 +9,9 @@ import img5 from '../../assets/img5.jpg'
 import video1 from '../../assets/video1.mp4'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+
+
+
 export function Home(props) {
 
   useEffect(()=>{
@@ -22,6 +24,7 @@ export function Home(props) {
     <>
       <div className="relative w-full overflow-x-hidden">
       
+      {/* Hero Section */}
       <div className="relative h-screen isolate z-0 bg-white px-6 pt-14 lg:px-8">
         <div className="relative mx-auto max-w-2xl py-24">
           <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">
@@ -78,44 +81,44 @@ export function Home(props) {
         </div>
       </div>
 
-          <hr className="mt-6 max-w-7xl mx-auto" />
+      <hr className="mt-6 max-w-7xl mx-auto" />
       <div >
-        <h1  animate={{y:0}} transition={{ duration: 1.5 }}  style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center text-5xl font-bold mt-10 mb-10'>Our Past Events</h1>
+        <h1  animate={{y:0}} transition={{ duration: 1.5 }}  style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center text-3xl font-bold mt-10 mb-10 lg:text-5xl'>Our Past Events</h1>
       </div>
       <hr className=" m-12 max-w-7xl mx-auto" />
 
       <div className='w-full h-screen relative'>
         <video autoPlay muted loop src={video1} className='absolute inset-0 w-full h-full object-cover'></video>
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className=' absolute inset-0  flex justify-start items-end m-8 text-3xl text-white lg:text-5xl'>
           Mr. Punjab BodyBuilding Championship
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
           Farming in rainy season
         </h1>
     </div>
@@ -123,69 +126,69 @@ export function Home(props) {
       
       <hr className="mt-6 max-w-7xl mx-auto" />
       <div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center text-5xl font-bold mt-10 mb-10'>Our Upcoming Events</h1>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center font-bold mt-10 mb-10 text-3xl lg:text-5xl'>Our Upcoming Events</h1>
       </div>
       <hr className=" m-12 max-w-7xl mx-auto" />
 
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
           Farming in rainy season
         </h1>
     </div>
       <div className='w-full h-screen relative'>
         <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8 text-5xl text-white'>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
           Farming in rainy season
         </h1>
     </div>
 
           <hr className="mt-6 max-w-7xl mx-auto" />
       <div>
-        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center text-5xl font-bold mt-10 mb-10'>Our Community Glimps</h1>
+        <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center  font-bold mt-10 mb-10 text-3xl lg:text-5xl'>Our Community Glimps</h1>
       </div>
       <hr className=" m-12 max-w-7xl mx-auto" />
 
      <article>
-      <div>
+      <div className='flex'>
         <ul>
-          <li><img src={img1} style={{ height: "300px" }} /></li>
-          <li><img src={img2} style={{ height: "300px" }} /></li>
-          <li><img src={img3} style={{ height: "300px" }} /></li>
-          <li><img src={img5} style={{ height: "300px" }} /></li>
-          <li><img src={img4} style={{ height: "300px" }} /></li>   
+          <li><img src={img1}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]' /></li>
+          <li><img src={img2}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'   /></li>
+          <li><img src={img3}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'   /></li>
+          <li><img src={img5}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'   /></li>
+          <li><img src={img4}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'  /></li>   
         </ul>
       </div>
       <div>
         <ul>
-          <li><img src={img1} style={{ height: "300px" }} /></li>
-          <li><img src={img2} style={{ height: "300px" }} /></li>
-          <li><img src={img3} style={{ height: "300px" }} /></li>
-          <li><img src={img5} style={{ height: "300px" }} /></li>
-          <li><img src={img4} style={{ height: "300px" }} /></li>
+          <li><img src={img1}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]' /></li>
+          <li><img src={img2}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'  /></li>
+          <li><img src={img3}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'  /></li>
+          <li><img src={img5}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]' /></li>
+          <li><img src={img4}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'  /></li>
         </ul>
       </div>
     </article>

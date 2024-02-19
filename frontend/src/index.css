@@ -63,6 +63,7 @@ button:hover{
   ul {
     display: flex;
     gap: 10px;
+    width: 100%;
     border-radius: 10px;
     list-style-type: none;
     padding-left: 0;
@@ -72,10 +73,6 @@ button:hover{
   li  {
     width: 100%;
   }
-  
-   /* li:nth-child(2) {
-    background: green;
-  } */
   
   li:nth-child(5) {
     padding-right: 10px;
