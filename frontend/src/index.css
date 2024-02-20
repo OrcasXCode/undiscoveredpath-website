@@ -43,46 +43,45 @@ button:hover{
 
 
 
-  img {
-    display: block;
-    width: 100%;
-  }
-  
-  section {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  article {
-    display: flex;
-    width: 200%;
-    animation: bannermove 20s linear infinite;
-  }
+.glimsimg {
+  display: block;
+  width: 100%;
+}
 
-  
-  ul {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-    border-radius: 10px;
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-  }
-  
-  li  {
-    width: 100%;
-  }
-  
-  li:nth-child(5) {
-    padding-right: 10px;
-  } 
-  
-  @keyframes bannermove {
-    0% {
+section {
+  width: 100%;
+  overflow: hidden;
+}
+
+article {
+  display: flex;
+  width: 200%;
+  animation: bannermove 20s linear infinite;
+}
+
+.glimsul {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  border-radius: 10px;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.glimsli {
+  width: 100%;
+}
+
+.glimsli:last-child {
+  padding-right: 10px;
+}
+
+@keyframes bannermove {
+  0% {
       transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
   }
+  100% {
+      transform: translateX(-50%);
+  }
+}

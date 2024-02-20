@@ -173,25 +173,26 @@ export function Home(props) {
       <hr className=" m-12 max-w-7xl mx-auto" />
 
      <article>
-      <div className='flex'>
-        <ul>
-          <li><img src={img1}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]' /></li>
-          <li><img src={img2}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'   /></li>
-          <li><img src={img3}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'   /></li>
-          <li><img src={img5}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'   /></li>
-          <li><img src={img4}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'  /></li>   
+    <div class='flex'>
+        <ul class='glimsul'>
+            <li class='glimsli'><img class='glimsimg' src={img1} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img2} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img3} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img5} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img4} /></li>
         </ul>
-      </div>
-      <div>
-        <ul>
-          <li><img src={img1}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]' /></li>
-          <li><img src={img2}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'  /></li>
-          <li><img src={img3}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'  /></li>
-          <li><img src={img5}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]' /></li>
-          <li><img src={img4}  className='h-[250px] w-[900px] lg:h-[300px] lg:w-[500px] md:h-[250px] md:w-[700px]'  /></li>
+    </div>
+    <div>
+        <ul class='glimsul'>
+            <li class='glimsli'><img class='glimsimg' src={img1} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img2} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img3} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img5} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img4} /></li>
         </ul>
-      </div>
-    </article>
+    </div>
+</article>
+
 
     <hr className=" m-12 max-w-7xl mx-auto" />
     </div>

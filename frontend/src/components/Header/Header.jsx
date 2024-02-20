@@ -9,9 +9,6 @@ export function Header(){
 
   return (
     <nav style={{fontFamily:'GraublauWeb',fontWeight:'bold'}}>
-      {/* <Link to="/" className="title">
-        <img src={Logo}></img>
-      </Link> */}
       <Link to="/" className="flex items-center">
        <img src={Logo} className="mr-3 h-12" alt="Logo" />
       </Link>
