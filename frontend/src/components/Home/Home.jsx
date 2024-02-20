@@ -26,7 +26,7 @@ import 'aos/dist/aos.css';
 export function Home(props) {
 
   useEffect(()=>{
-    AOS.init({duration:2000});
+    AOS.init({duration:1500});
   },[])
   AOS.init();
 
@@ -88,7 +88,7 @@ export function Home(props) {
             </p>
         </div>
        <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
-          <img src={hey}></img>
+          <img data-aos="fade-left" src={hey}></img>
         </div>
       </div>
 

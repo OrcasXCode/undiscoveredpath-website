@@ -9,7 +9,7 @@ export function Header(){
 
   return (
     <nav style={{fontFamily:'GraublauWeb',fontWeight:'bold'}}>
-      <Link to="/" className="flex items-center">
+      <Link to="/" className="flex items-center lg:ml-[150px]">
        <img src={Logo} className="mr-3 h-12" alt="Logo" />
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
@@ -17,7 +17,7 @@ export function Header(){
         <span></span>
         <span></span>
       </div>
-      <ul className={menuOpen ? "open" : ""}>
+      <ul  className={`lg:mr-[150px] ${menuOpen ? "open" : ""}`}>
         <li>
           <NavLink to="/">Home</NavLink>
         </li>
