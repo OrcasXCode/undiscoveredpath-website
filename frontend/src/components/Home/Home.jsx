@@ -6,7 +6,11 @@ import img2 from '../../assets/img2.jpg'
 import img3 from '../../assets/img3.jpg'
 import img4 from '../../assets/img4.jpg'
 import img5 from '../../assets/img5.jpg'
+import event2 from '../../assets/event2.jpg'
+import event3 from '../../assets/event3.jpg'
 import video1 from '../../assets/video1.mp4'
+import video2 from '../../assets/video2.mp4'
+import video3 from '../../assets/video3.mp4'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
@@ -91,35 +95,35 @@ export function Home(props) {
         <video autoPlay muted loop src={video1} className='absolute inset-0 w-full h-full object-cover'></video>
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className=' absolute inset-0  flex justify-start items-end m-8 text-3xl text-white lg:text-5xl'>
-          Mr. Punjab BodyBuilding Championship
+          Mr. Punjab BodyBuilding Championship 2024
         </h1>
     </div>
       <div className='w-full h-screen relative'>
-        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <video autoPlay muted loop src={video2} className='absolute inset-0 w-full h-full object-cover'></video>
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
-          Farming in rainy season
+          Virasat-E-Khalsa
         </h1>
     </div>
       <div className='w-full h-screen relative'>
-        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <video autoPlay muted loop src={video3} className='absolute inset-0 w-full h-full object-cover'></video>
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
-          Farming in rainy season
+          Slow Cycle Race : Journey Back to Childhood
         </h1>
     </div>
       <div className='w-full h-screen relative'>
-        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <img src={event2} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
-          Farming in rainy season
+          Invoking Inner Powers
         </h1>
     </div>
       <div className='w-full h-screen relative'>
-        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+         <img src={event3} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
-          Farming in rainy season
+          Meditation  & Yoga for Mental Health
         </h1>
     </div>
 
@@ -144,27 +148,8 @@ export function Home(props) {
           Farming in rainy season
         </h1>
     </div>
-      <div className='w-full h-screen relative'>
-        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
-        <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
-          Farming in rainy season
-        </h1>
-    </div>
-      <div className='w-full h-screen relative'>
-        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
-        <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
-          Farming in rainy season
-        </h1>
-    </div>
-      <div className='w-full h-screen relative'>
-        <img src={demo} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
-        <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
-          Farming in rainy season
-        </h1>
-    </div>
+
+     
 
           <hr className="mt-6 max-w-7xl mx-auto" />
       <div>
@@ -177,7 +162,7 @@ export function Home(props) {
         <ul class='glimsul'>
             <li class='glimsli'><img class='glimsimg' src={img1} /></li>
             <li class='glimsli'><img class='glimsimg' src={img2} /></li>
-            <li class='glimsli'><img class='glimsimg' src={img3} /></li>
+            {/* <li class='glimsli'><img class='glimsimg' src={img3} /></li> */}
             <li class='glimsli'><img class='glimsimg' src={img5} /></li>
             <li class='glimsli'><img class='glimsimg' src={img4} /></li>
         </ul>
@@ -186,7 +171,7 @@ export function Home(props) {
         <ul class='glimsul'>
             <li class='glimsli'><img class='glimsimg' src={img1} /></li>
             <li class='glimsli'><img class='glimsimg' src={img2} /></li>
-            <li class='glimsli'><img class='glimsimg' src={img3} /></li>
+            {/* <li class='glimsli'><img class='glimsimg' src={img3} /></li> */}
             <li class='glimsli'><img class='glimsimg' src={img5} /></li>
             <li class='glimsli'><img class='glimsimg' src={img4} /></li>
         </ul>
