@@ -1,11 +1,18 @@
 import React, { useEffect } from 'react'
 import  {TypeAnimation}  from 'react-type-animation';
 import demo from '../../assets/demo.jpg'
+import hey from '../../assets/hey.png'
 import img1 from '../../assets/img1.jpg'
 import img2 from '../../assets/img2.jpg'
-import img3 from '../../assets/img3.jpg'
 import img4 from '../../assets/img4.jpg'
 import img5 from '../../assets/img5.jpg'
+import img6 from '../../assets/img6.jpg'
+import img7 from '../../assets/img7.jpg'
+import img8 from '../../assets/img8.jpg'
+import img9 from '../../assets/img9.jpg'
+import img10 from '../../assets/img10.jpg'
+import img11 from '../../assets/img11.jpg'
+import img12 from '../../assets/img12.jpg'
 import event2 from '../../assets/event2.jpg'
 import event3 from '../../assets/event3.jpg'
 import video1 from '../../assets/video1.mp4'
@@ -29,8 +36,8 @@ export function Home(props) {
       <div className="relative w-full overflow-x-hidden">
       
       {/* Hero Section */}
-      <div className="relative h-screen isolate z-0 bg-white px-6 pt-14 lg:px-8">
-        <div className="relative mx-auto max-w-2xl py-24">
+       <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+        <div className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
           <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">
             <svg
               className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -57,8 +64,7 @@ export function Home(props) {
               </defs>
             </svg>
           </div>
-          <div className="text-center">
-           <h1 data-aos="zoom-in" transition={{ duration: 1.5 }} style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-8 text-3xl font-bold tracking-tight text-black md:text-4xl lg:text-6xl">
+          <h1 data-aos="zoom-in" transition={{ duration: 1.5 }} style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-8 text-3xl font-bold tracking-tight text-black md:text-4xl lg:text-6xl">
             Hey There Verto! 
           </h1>
           <h1 className="mt-8 text-[20px] font-bold tracking-tight text-black md:text-4xl lg:text-3xl">
@@ -75,13 +81,14 @@ export function Home(props) {
           className="mt-8 text-[20px] text-[#CB00CC] font-bold tracking-tight md:text-4xl lg:text-3xl"   
           repeat={Infinity}></TypeAnimation> 
           </h1>
-            <p style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-6 text-lg leading-8 text-gray-600">
+          <p style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-6 text-lg leading-8 text-gray-600">
               We the entire community of Undiscovered Path, 
               We extend a warm and enthusiastic welcome to you all! Whether you're a returning member
                or a newcomer, we're thrilled to have you join us on this exciting journey filled with creativity, diversity, and fun.
             </p>
-            
-          </div>
+        </div>
+       <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
+          <img src={hey}></img>
         </div>
       </div>
 
@@ -112,18 +119,19 @@ export function Home(props) {
           Slow Cycle Race : Journey Back to Childhood
         </h1>
     </div>
-      <div className='w-full h-screen relative'>
-        <img src={event2} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
-        <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
-          Invoking Inner Powers
-        </h1>
-    </div>
+      
       <div className='w-full h-screen relative'>
          <img src={event3} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
           Meditation  & Yoga for Mental Health
+        </h1>
+    </div>
+    <div className='w-full h-screen relative'>
+        <img src={event2} className='absolute inset-0 w-full h-full object-cover' alt='Demo' />
+        <div className='absolute inset-0 bg-black opacity-50'></div>
+        <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
+          Invoking Inner Powers
         </h1>
     </div>
 
@@ -160,11 +168,18 @@ export function Home(props) {
      <article>
     <div class='flex'>
         <ul class='glimsul'>
-            <li class='glimsli'><img class='glimsimg' src={img1} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img1}/></li>
             <li class='glimsli'><img class='glimsimg' src={img2} /></li>
             {/* <li class='glimsli'><img class='glimsimg' src={img3} /></li> */}
             <li class='glimsli'><img class='glimsimg' src={img5} /></li>
             <li class='glimsli'><img class='glimsimg' src={img4} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img6} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img7} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img8} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img9} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img10} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img11} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img12} /></li>
         </ul>
     </div>
     <div>
@@ -174,6 +189,13 @@ export function Home(props) {
             {/* <li class='glimsli'><img class='glimsimg' src={img3} /></li> */}
             <li class='glimsli'><img class='glimsimg' src={img5} /></li>
             <li class='glimsli'><img class='glimsimg' src={img4} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img6} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img7} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img8} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img9} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img10} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img11} /></li>
+            <li class='glimsli'><img class='glimsimg' src={img12} /></li>
         </ul>
     </div>
 </article>

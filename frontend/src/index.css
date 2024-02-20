@@ -46,6 +46,7 @@ button:hover{
 .glimsimg {
   display: block;
   width: 100%;
+  height: 250px;
 }
 
 section {
@@ -71,6 +72,7 @@ article {
 
 .glimsli {
   width: 100%;
+  width: 400px;
 }
 
 .glimsli:last-child {
