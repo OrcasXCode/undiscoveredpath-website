@@ -16,7 +16,7 @@ export function Error() {
             We know you're excited for the events, but unfortunately we are still planning them. We'll notify you and get back to you soon.
         </p>
         <div className="mt-4 flex items-center justify-center gap-x-3">
-          <Link to="/">
+          <Link to="/contactus">
             <button
             type="button"
             className="inline-flex items-center rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
@@ -26,8 +26,8 @@ export function Error() {
           </button>
           </Link>
         </div>
-        <div className=' mt-[80px] w-[700px] mx-auto flex justify-center items-center '>
-            <Lottie animationData={sorry}></Lottie>
+        <div className=' w-100%  h-[500px] flex items-center justify-center mx-auto'>
+            <Lottie className='mx-auto h-[500px]' animationData={sorry}></Lottie>
         </div>
       </div>
     </div>

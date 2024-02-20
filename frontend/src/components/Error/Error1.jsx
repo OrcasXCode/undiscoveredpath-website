@@ -16,7 +16,7 @@ export function Error1() {
             We are not currently hiring. Thank you for your interest and patience!
         </p>
         <div className="mt-4 flex items-center justify-center gap-x-3">
-          <Link to="/">
+          <Link to="/aboutus">
             <button
             type="button"
             className="inline-flex items-center rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"

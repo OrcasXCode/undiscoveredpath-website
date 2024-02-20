@@ -65,7 +65,7 @@ export function Home(props) {
             </svg>
           </div>
           <h1 data-aos="zoom-in" transition={{ duration: 1.5 }} style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-8 text-3xl font-bold tracking-tight text-black md:text-4xl lg:text-6xl">
-            Hey There Verto! 
+            Hey There <span id='verto'> Verto!</span> 
           </h1>
           <h1 className="mt-8 text-[20px] font-bold tracking-tight text-black md:text-4xl lg:text-3xl">
             <span style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className="mt-8 text-[20px] font-bold tracking-tight text-black md:text-4xl lg:text-3xl">Welcome to </span>

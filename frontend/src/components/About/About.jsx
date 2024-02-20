@@ -112,7 +112,7 @@ export function About() {
               <img
                 src={user.image}
                 alt={user.name}
-                className="h-[300px] w-full rounded-lg object-cover "
+                className=" h-[250px] w-full rounded-lg object-cover "
               />
               <p className="mt-6 w-full px-2 text-xl  font-semibold text-gray-900">{user.name}</p>
               <p className="w-full px-2 pb-6 text-sm font-semibold text-gray-500">
