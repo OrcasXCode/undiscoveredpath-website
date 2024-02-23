@@ -74,7 +74,7 @@ export function About() {
               Our philosophy is simple — hire a team of diverse, passionate people and foster a
               culture that empowers you to do your best work.
             </p>
-            <Link to="/error-recruitment">
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLScKXYX3UHp29ShCVp6zo0ajyCwBQO8H3nSVdsEL1zT9NtnhSA/viewform?usp=sf_link ">
               <button
               data-aos="fade-right" data-aos-duration="1000"
               type="button"
