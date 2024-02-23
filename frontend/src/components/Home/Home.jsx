@@ -135,7 +135,7 @@ export function Home(props) {
         </h1>
     </div>
 
-      
+{/*       
       <hr className="mt-6 max-w-7xl mx-auto" />
       <div>
         <h1 style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='flex justify-center items-center font-bold mt-10 mb-10 text-3xl lg:text-5xl'>Our Upcoming Events</h1>
@@ -155,7 +155,7 @@ export function Home(props) {
         <h1 data-aos="fade-up" style={{fontFamily:'GraublauWeb',fontWeight:'bold'}} className='absolute inset-0  flex justify-start items-end m-8  text-white text-3xl lg:text-5xl'>
           Farming in rainy season
         </h1>
-    </div>
+    </div> */}
 
      
 
