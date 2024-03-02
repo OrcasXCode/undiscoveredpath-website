@@ -3,49 +3,50 @@ import logo from '../../assets/logo.png'
 import shalu from '../../assets/shalu.jpg'
 import naveen from '../../assets/naveen.jpg'
 import akashdeep from '../../assets/akashdeep.jpg'
-import sunil from '../../assets/sunil.png'
-import ashish from '../../assets/ashish.jpg'
+import sarnet from '../../assets/sarnet.jpg'
+import nikhil from '../../assets/nikhil.jpg'
 import { Link } from 'react-router-dom'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
 const users = [
   {
-    name: 'SHALU YADAV',
-    image:shalu,
-    position: 'CEO -  Chief Executive Officer',
-    data:'fade-up',
-    duration:2000,
-    delay:100
-  },
-  {
-    name: 'NAVEEN',
-    image:naveen,
-    position: 'CO-CEO - Co-Chief Executive Officer.',
-    data:'fade-up',
-    duration:2000,
-    delay:200
-  },
-  {
-    name: 'AKASHDEEP',
+    name: 'AKASHDEEP SINGH',
     image:akashdeep,
-    position: 'CFO - Chief Financial Officer',
+    position: 'FOUNDER,CEO',
     data:'fade-up',
     duration:2000,
     delay:300
   },
   {
-    name: 'SUNIL KUMAR MEHTA',
-    image:sunil,
-    position: 'MD - Managing Director',
+    name: 'SHALU YADAV',
+    image:shalu,
+    position: 'CO-CEO',
+    data:'fade-up',
+    duration:2000,
+    delay:100
+  },
+  {
+    name: 'NAVEEN KUMAR',
+    image:naveen,
+    position: 'COO',
+    data:'fade-up',
+    duration:2000,
+    delay:200
+  },
+  
+  {
+    name: 'SARNEET SINGH',
+    image:sarnet,
+    position: 'CFO',
     data:'fade-up',
     duration:2000,
     delay:400
   },
   {
-    name: 'B SAI ASHISH',
-    image:ashish,
-    position: 'HR - Human Resources',
+    name: 'NIKHIL LASKOTRA',
+    image:nikhil,
+    position: 'CMO',
     data:'fade-up',
     duration:2000,
     delay:500
